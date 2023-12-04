@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+    background-image: url(Image_1/plan.jpg);
+    margin-top: 0px;
+}
+.Titre{
+    font-family: 'montserrat','arial','sans-serif', 'geneva';
+    background-color: rgb(66, 109, 24);
+    background-image: url(Image_2/leclerc.jpg);
+    opacity: 0.9;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
+    padding: 70px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.SousTitre{
+    font-family: 'montserrat','arial','sans-serif', 'geneva';
+    background-color: rgba(77, 113, 41, 0.845);
+    background-image: url(Image_2/leclerc1.jpg);
+    opacity: 0.9;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.menu{
+    background-image: url(Image_2/leclerc2.jpg);
+    opacity: 0.9;
+    margin-top: 0px;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+.menu1-1{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.845);
+    width: 200px;
+    border-radius: 20px;
+    padding: 13px;
+    margin: 10px;
+    background-color: rgb(69, 62, 33);
+}
+
+.block{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+article{
+    display: border-box;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(69, 62, 33);
+    background-color: rgb(83, 75, 40);
+    border-radius: 20px;
+    margin : auto;
+    padding: 5px;
+    margin-bottom: 100px;
+    color:rgba(255, 255, 255, 0.845)
+}
+
+.hu{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.845);
+    width: 200px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(69, 62, 33);
+}
+.huimg{
+    display: flex;
+    justify-content: center;
+}
+.huimg p{
+    flex-basis: calc(90% / 3 - 10px);
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.845);
+    width: 300px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(69, 62, 33);
+}
+.InArticle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.InArticle a{
+    text-align: center;
+    font-size: 1em;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.845);
+    border-radius: 20px;
+    border-style: dotted;
+    border-width: 2px;
+    border-color:rgb(69, 62, 33);
+    padding: 13px;
+    margin: 10px;
+    background-color: rgb(83, 75, 40);
+}
+p{
+    padding: 5px;
+    font-size: 20px;
+    text-align: justify;
+}
+.p1{
+    flex-basis: calc(65% - 10px);
+}
+.p2{
+    column-count: 2;
+}
+.main .img1{
+    border-radius: 50%;
+    width: 20%;
+    height: 10%;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+.img{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main img{
+    border-radius: 10%;
+    width: 30%;
+    height: 10%;
+    padding: 5px;
+    margin: 20px;
+}
+
+.main .vid{
+    border-radius: 10%;
+    width: 30%;
+    height: 10%;
+    padding: 5px;
+    margin: 20px;
+}
+
+.part1-3{
+    flex-basis: 100%;
+}
+.part2{
+    flex-basis: calc(100% / 2 - 20px)
+}
+.part2-1{
+    flex-basis: calc(70% - 20px)
+}
+.part2-2{
+    flex-basis: calc(30% - 20px)
+}
+.f{
+    background-image: url(Image_2/leclerc3.jpg);  
+    text-align: center;
+    color:white;
+    width: 100%;
+    padding:20px;
+    background-color: rgb(54, 106, 111);
+}
